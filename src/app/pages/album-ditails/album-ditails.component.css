@@ -1,0 +1,9 @@
+.cont-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo{
+    margin: 2em;
+    padding: 1.12em;
+}

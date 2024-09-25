@@ -1,0 +1,6 @@
+<div class="wrapper cont-photo">
+    <div *ngFor="let photo of photoList"class="photo card col-sm-12 col-md-3 mt-3">
+        <img [src]="photo.url" [alt]="photo.title">
+        <p class="text-center">{{photo.title}}</p>
+    </div>
+</div>
